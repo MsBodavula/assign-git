@@ -1,0 +1,46 @@
+**Answer for Question 1
+
+git ignore will tell which files need to be ignored while commiting a project
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+these are the files need to be included in the java file
+
+**Answer for question2
+
+Fast-forward is used in merging. With the help of fast-forward merge we can move our branch tip forward to the 
+end of our feature branch and also it will keep all commits 
+created in our feature branch sequential while integrating that 
+back our main branch.
+
+**Answer for Question3
+
+Branching allows us to branch out from the original code base and 
+isolate our work from the others. It will be helpful to merge the 
+versions later.
+
+**Answer for Question4
+
+Though we can add multiple remotes, 
+usually, each branch of our project can be configured to 
+track a single remote branch.
+So we need to set up multiple push URLs on a remote andthen perform push 
+to taht remote
