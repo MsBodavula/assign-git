@@ -26,18 +26,21 @@ these are the files need to be included in the java file
 
 **Answer for question2
 
-fast-forward means it will move our branch tip forward to the 
+Fast-forward is used in merging. With the help of fast-forward merge we can move our branch tip forward to the 
 end of our feature branch and also it will keep all commits 
 created in our feature branch sequential while integrating that 
 back our main branch.
 
 **Answer for Question3
 
-branching allows us to branch out from the original code base and 
-isolate their work from the others it will be helpful to merge the 
+Branching allows us to branch out from the original code base and 
+isolate our work from the others. It will be helpful to merge the 
 versions later.
 
 **Answer for Question4
 
-we can have multiple remote repositories but when it comes to project 
-we prefer single repository.
+Though we can add multiple remotes, 
+usually, each branch of our project can be configured to 
+track a single remote branch.
+So we need to set up multiple push URLs on a remote andthen perform push 
+to taht remote
